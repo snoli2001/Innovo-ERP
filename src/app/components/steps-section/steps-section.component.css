@@ -1,0 +1,13 @@
+
+ .step-paragraph{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+ .step-small-paragraph {
+   font-size: 17px;
+   line-height: 25px;
+ }
+ .step-small-paragraph li {
+   font-size: 14px;
+ }

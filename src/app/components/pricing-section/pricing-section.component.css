@@ -1,0 +1,83 @@
+/*.feat-plan ul li i {*/
+/*  cursor: pointer;*/
+/*}*/
+/*.feat-plan {*/
+/*  text-align: center;*/
+/*}*/
+/*.feat-plan  ul li  {*/
+/*  cursor: pointer;*/
+/*  !*border-bottom: none;*!*/
+/*}*/
+/*.feat-plan .submenu {*/
+/*  background: #7e59d5;*/
+/*  color: white;*/
+/*  border-top: white;*/
+/*}*/
+/*.feat-plan .submenu  li {*/
+/*  border-bottom: none;*/
+/*  text-decoration: none;*/
+/*  cursor: text;*/
+/*  !*display: none;*!*/
+/*  transition: all 0.5s;*/
+/*}*/
+
+
+/*.feat-plan .accordion {*/
+/*  width: 100%;*/
+/*  margin: 10px auto 0;*/
+/*  background: #fff;*/
+/*  border-radius: 4px;*/
+/*}*/
+
+.feat-plan a i {
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease
+}
+
+.feat-plan .submenu {
+  background: #8569c4;
+  border-bottom: none;
+  color: white;
+}
+.feat-plan ul li ul li{
+  border-bottom: none;
+}
+
+.feat-plan li a:hover {
+  color: #7a57d3;
+}
+/* a:active i  {*/
+/*  -webkit-transform:rotate(180deg);*/
+/*  transform:rotate(180deg);*/
+/*  -webkit-transition: all .4s ease;*/
+/*  transition: all .4s ease;*/
+/*  !*animation: flip 5s ;*!*/
+/*}*/
+
+ ul li .open i {
+   -webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
+   -webkit-transition: all .4s ease;
+   transition: all .4s ease
+ }
+
+/*.close {*/
+ /*  -webkit-transform: rotate(180deg);*/
+ /*  transform: rotate(180deg);*/
+ /*  -webkit-transition: all .4s ease;*/
+ /*  transition: all .4s ease*/
+ /*}*/
+@keyframes flip {
+    from {
+      transform: rotate(0deg);
+    }
+  to {
+    transform: rotate(180deg);}
+}
+
+
+
+
+
+
+

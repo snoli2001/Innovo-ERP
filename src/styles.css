@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html {
+  /*smooth scroll*/
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+
+}
+body::-webkit-scrollbar-thumb {
+  background: #777dda;
+  /*background: rgba(255,255,255,.2);*/
+  border-radius: 10px;
+  border-right: 2px solid white;
+  border-left:  2px solid white;
+}
+
+/*section .row p {*/
+/*  text-decoration-line: none;*/
+/*}*/
