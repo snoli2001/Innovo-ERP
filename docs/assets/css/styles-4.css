@@ -291,24 +291,25 @@ a.butn.white:hover, a.butn.white:active {
   /* background-image: url("../img/logos/logo-innovo.png") !important;*/
   /*}*/
 }
+
 @media screen and (min-width: 992px)  {
   .onepage-header .navbar-nav .nav-link:hover {
     color: #290137;
   }
   .fixedHeader #logo{
 
-    content: url("../img/logos/new-logo.png");
+    content: url("../img/logos/logo-Morado.svg");
   }
 }
 @media screen and (max-width: 992px)  {
   .fixedHeader #logo{
-    content: url("../img/logos/new-logo-white.png")!important;
-    filter: drop-shadow(2px 2px 3px #000);
+    content: url("../img/logos/logo-blanco.svg")!important;
+    /*filter: drop-shadow(2px 2px 3px #000);*/
   }
 }
 .scrollHeader #logo{
-  content: url("../img/logos/new-logo-white.png");
-  filter: drop-shadow(2px 2px 3px #000);
+  content: url("../img/logos/logo-blanco.svg");
+  /*filter: drop-shadow(2px 2px 3px #000);*/
 }
 
 
